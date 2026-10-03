@@ -1,9 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Shots</title>
     <link>https://davidnorrisdev.github.io/shots-releases/appcast.xml</link>
     <description>Updates for Shots, the agent-first App Store screenshot app.</description>
     <language>en</language>
+    <item>
+      <title>0.4.0</title>
+      <pubDate>Sat, 03 Oct 2026 19:17:43 +0000</pubDate>
+      <sparkle:version>202610031914</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>First release</h4>
+<ul>
+<li>Record M5b as merged</li>
+<li>Record the Sparkle key as backed up</li>
+<li>Record M5b as built and reviewed, awaiting the merge</li>
+<li>Build Shots on GitHub's runner</li>
+<li>Pin the engine commit CI builds against</li>
+<li>Sign updates with the Shots key and refuse a placeholder</li>
+<li>Release Shots from a tag with GitHub Actions</li>
+<li>Ask before replacing Shots in Applications and drop the download's quarantine</li>
+<li>Update Shots with Sparkle and build a signed release with one script</li>
+<li>Pin the packages the app now resolves</li>
+<li>Connect Shots to Claude Code and move it to Applications on first launch</li>
+<li>Let a Stop reach children launched off the main thread</li>
+<li>Build shots-mcp and shots-capture into the app with the skill and driver</li>
+<li>Give both tools a shared entry point and find the driver inside the app</li>
+<li>Find the tools inside the app unless a Settings path says otherwise</li>
+<li>Build Shots on GitHub's runner</li>
+<li>Record three lessons from M5a's live pass and polish</li>
+<li>Record the M5b plan as next in the status</li>
+<li>Write the Milestone 5b plan and align the spec with Brio's feed</li>
+<li>Write the Milestone 5b distribution spec</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.4.0/Shots-0.4.0.dmg" length="6204175" type="application/octet-stream" sparkle:edSignature="7gMeJChPBgvtC+0bxXXl0U3JPYdwECMmrsIKiK+JnFkzYrEPA0IhPU3ahc3WQOP4lGzVJV7iU/bViTlsKniSDw==" />
+    </item>
   </channel>
 </rss>
