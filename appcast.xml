@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Shots</title>
+    <link>https://davidnorrisdev.github.io/shots-releases/appcast.xml</link>
+    <description>Updates for Shots, the agent-first App Store screenshot app.</description>
+    <language>en</language>
+  </channel>
+</rss>
