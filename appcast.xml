@@ -6,34 +6,527 @@
     <description>Updates for Shots, the agent-first App Store screenshot app.</description>
     <language>en</language>
     <item>
+      <title>0.5.0-beta.1</title>
+      <pubDate>Mon, 12 Oct 2026 10:32:33 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>202610121028</sparkle:version>
+      <sparkle:shortVersionString>0.5.0-beta.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>What changed since v0.4.0</h4>
+<ul>
+<li>Record the pre-release fixes status</li>
+<li>Record the pre-release fixes and the owed live run</li>
+<li>Open the Simulator window in Device Hub on Xcode 27.1</li>
+<li>End the person's other apps before opening theirs</li>
+<li>Find Shots' simulators by recorded UDID</li>
+<li>Record the iPad plan 3 lessons and status</li>
+<li>Record the pass fixes and their re-run</li>
+<li>Show a run on a screen in that screen's row</li>
+<li>Tell Claude which screen a Send is about</li>
+<li>Put the run's cards in a band across the top of the stage</li>
+<li>Let Show all leave a screen's takes</li>
+<li>Make Reset a button</li>
+<li>Put Use under each take and each look</li>
+<li>Fill the stage's shot to the divider</li>
+<li>Record the iPad plan 3 live pass</li>
+<li>Record the pushes and green CI</li>
+<li>Record the iPad plan 3 merge and the red CI</li>
+<li>Record the iPad plan 3 build</li>
+<li>Park the iPad plan 3 follow-ups and script its live pass</li>
+<li>Keep the iPad's Size and Font badges honest</li>
+<li>Draft new shots on the base and count only iPad captures as a set</li>
+<li>Start each run on the window's device and close an iPad set run with its count</li>
+<li>Show which fields the iPad follows and which are its own</li>
+<li>Fall back to the base device for annotation pictures and the launcher</li>
+<li>Let VoiceOver reach each button in a paired set row</li>
+<li>Pair each screen's iPhone and iPad tiles, with the Make card under the set</li>
+<li>Check a plain send is not an iPad set run</li>
+<li>Work out the iPad tiles, the Make card and the progress line</li>
+<li>Write a device's own fields from the inspector's edits</li>
+<li>Plan the iPad set window</li>
+<li>Wrap up the iPad plans session</li>
+<li>Say what is unpushed</li>
+<li>Record the iPad plan 2 merge</li>
+<li>Park the iPad plan 2 follow-ups</li>
+<li>Number looks across the whole run</li>
+<li>Fail an iPad set run that can't prepare or gives up</li>
+<li>Teach the shoot skill to shoot the whole shot on the iPad</li>
+<li>Give each screen and device its own 30 moves</li>
+<li>Score the iPad set eval against the screens briefed</li>
+<li>Evaluate Make the iPad set on Pocket Backlog</li>
+<li>Write the iPad set skill and the shoot skill's iPad step</li>
+<li>Start shots, takes and the iPad set on a device</li>
+<li>Carry a device through runs and add the iPad set run</li>
+<li>Let set_style and add_variant work on one device</li>
+<li>Seed an iPad colour tweak from the iPhone's blocks and accept every engine device</li>
+<li>Let set_screen and render work on one device</li>
+<li>Make TourFixture universal and prove capture on Shots iPad 13</li>
+<li>Record whether an app is iPhone only and refuse it on iPad</li>
+<li>Prepare a Simulator by device and remember its look</li>
+<li>Pin the engine with per-device overrides</li>
+<li>Plan the iPad set's capture, MCP and skills</li>
+<li>Note the icon comes last</li>
+<li>Record the iPad engine merge</li>
+<li>Park the iPad engine plan's minors</li>
+<li>Put the takes device on the batch in the iPad set spec</li>
+<li>Record the sweeps' merge and prune their rows</li>
+<li>Pin the swept engine and PocketLabSales</li>
+<li>Plan the iPad set's engine work</li>
+<li>Write the iPad set design</li>
+<li>Record four live-pass lessons and the pushed status</li>
+<li>Record the open sweep's status and four lessons</li>
+<li>Park the live pass's two findings</li>
+<li>Record the open sweep's live pass</li>
+<li>Quit after the setup sheet has dismissed itself</li>
+<li>Isolate the bundled-tools preflight test from a real Applications install</li>
+<li>Open the copied Shots as a new instance and end the sheet before quitting</li>
+<li>Plan the open sweep's live pass</li>
+<li>Stop the staging script dying of SIGPIPE when more screens are captured than kept</li>
+<li>Record the gated Simulator tests passing</li>
+<li>Drop the L701 Release build from what is owed</li>
+<li>Rewrite OPEN.md to what the open sweep left</li>
+<li>Stage live passes by script, pin AXe's frameworks and tidy the Shoot skill</li>
+<li>Say "no capture yet" in a render's caption and derive the accepted keys from the schema</li>
+<li>Give the run's own finish its events file so it marks the session finished</li>
+<li>Tidy the capture CLI's session, hand-off and launch edges</li>
+<li>Trim tool paths, guard Move to Applications, kill a stuck claude and give Connect the Shoot's PATH</li>
+<li>Drop two debugging prints from the layout tests</li>
+<li>Register the library root with Claude Code's user-scope server</li>
+<li>Measure the window chrome in the layout tests and drop the blank stack from an empty version list</li>
+<li>Offer a failed variants run's saved options, and a Try again when the batch can't begin</li>
+<li>Cache the project hash, look crops, annotation decodes and changelog snapshots; cancel superseded builds; render the largest waiting tile first</li>
+<li>Widen the run tests' load-bound waits</li>
+<li>Fill test gaps and inject clocks: run start, stalled card, joins, live takes row, hosted done-card trigger, one defaults helper</li>
+<li>Reword the run cap sentence</li>
+<li>Guard small paths: double restore, symlinked refs, setup sheet, hint in the gallery, card note clicks</li>
+<li>Fix copy and quit guard: AXe message, device prime, takes refusal, cap wording</li>
+<li>Run the strip test on the main actor</li>
+<li>Sweep dead code, renames and plan jargon from OPEN</li>
+<li>Stamp run files to the millisecond and prune after a successful start</li>
+<li>Plan the open sweep from a triage of OPEN.md</li>
+<li>Record the session's status and three rules from it</li>
+<li>Record CI green again and the Xcode 26.6 lesson</li>
+<li>Pin the engine to its Xcode 26.6 fix</li>
+<li>Record why CI failed for two days</li>
+<li>Pin the engine and PocketLabSales to their current main</li>
+<li>Mark main and the engine pushed</li>
+<li>Update the status after the pass leftovers merge</li>
+<li>Record the pass leftovers live pass</li>
+<li>Drop accent marks from the activity log's run text</li>
+<li>Show accent marks in Claude's reply as colour too</li>
+<li>Say Undo in its activity row</li>
+<li>Mark the pass leftovers fixed so far</li>
+<li>Test the done card's baseline and a card with no screen</li>
+<li>Show a take's accent words in colour, not as raw markup</li>
+<li>Take Undo's target from the restore and ignore a second press</li>
+<li>Record the quieter window lessons and mark main pushed</li>
+<li>Record the quieter window pass and update the status</li>
+<li>Record Generate variants moving outside the bar, after Send</li>
+<li>Move Generate variants outside the bar, after Send</li>
+<li>Record the quieter window pass staging</li>
+<li>Treat a Restore that brought the style back as its screen's</li>
+<li>Add the quieter window live pass steps</li>
+<li>Retire the done card on any folder change, and drop its reply</li>
+<li>Put Generate variants at the other end of the bar from Send</li>
+<li>Let the done card step aside once the shot moves on</li>
+<li>Tell a project Restore by its name, not its screens</li>
+<li>Show a Restore in the activity log</li>
+<li>Offer Undo after a Restore</li>
+<li>Run the source test on the main actor</li>
+<li>Name each version once, as the screen reads it</li>
+<li>Record the stdio staging and moved-feedback lessons, and update the status</li>
+<li>Add the quieter window plan</li>
+<li>Record the right column pass cleanup</li>
+<li>Update the status after merging the right column</li>
+<li>Add the quieter window spec and record the right column pass</li>
+<li>Add the right column live pass</li>
+<li>Stack Time Machine's buttons at the narrowest column and tighten the review tests</li>
+<li>Hide the screens list and the right column from the toolbar</li>
+<li>Move the changelog into the right column</li>
+<li>Move Restore into Time Machine and leave the centre on the shot</li>
+<li>Switch the right column with a row of symbols</li>
+<li>Update the status after the right column plan</li>
+<li>Add the right column plan</li>
+<li>Settle deleted screens and adopted drafts in the right column spec</li>
+<li>Record the changelog ruling</li>
+<li>Add the right column spec</li>
+<li>Record the changelog panel mock</li>
+<li>Record the side panels ruling</li>
+<li>Record the side panels mock</li>
+<li>Record the inspector strip ruling</li>
+<li>Record the inspector strip mock</li>
+<li>Record the Time Machine ruling</li>
+<li>Record the Time Machine mock</li>
+<li>Add the takes stage lessons</li>
+<li>Record the takes push in the status</li>
+<li>Update the status after merging takes</li>
+<li>Record the takes re-pass</li>
+<li>Record the takes stage fix</li>
+<li>Fit the takes to the stage's height</li>
+<li>Record the takes live pass</li>
+<li>Name the takes branch's commits in the status</li>
+<li>Add the takes live pass and update the status</li>
+<li>Fit three takes in the narrowest centre column</li>
+<li>Generate takes on a screen and pick one side by side</li>
+<li>Place takes on their screen and give them their words</li>
+<li>Carry a variants run's scope through generate, retry and kept</li>
+<li>Give every variants run the set as it stands</li>
+<li>Test add_variant's takes and require each screen's id</li>
+<li>Plan variants 3b (takes)</li>
+<li>Learn from the variants re-passes</li>
+<li>Record the variants push in the status</li>
+<li>Update the status after the variants live passes</li>
+<li>Park the re-pass minors and the changelog redesign</li>
+<li>Refuse style and screen fields shots-mcp doesn't know</li>
+<li>Park the live-pass fix minors</li>
+<li>Keep shot UI out of a variants run</li>
+<li>Cap the reply on the no-variants card</li>
+<li>Turn editing off while Claude makes looks</li>
+<li>Mark stale looks on the card and each row</li>
+<li>Learn that a staged copy needs a fresh id</li>
+<li>Resolve project ids in the app's library and refuse a shared id</li>
+<li>Keep the variants card's buttons in view with a long reply</li>
+<li>Park David's Time Machine and inspector ideas</li>
+<li>Add the variants live pass and update the status</li>
+<li>Treat an empty style in add_variant as absent</li>
+<li>Discard the variants batch when Start fresh or Import begins</li>
+<li>Refuse a variant Undo once the set has moved, and show a kept look in the gallery</li>
+<li>Show Claude's last sentence on the variants card and after no variants</li>
+<li>Grant a variants run only the shots tools that leave the set alone</li>
+<li>Add Generate variants, the looks stage and its card</li>
+<li>Make variant Undo report a failure and cover the stop paths</li>
+<li>Generate, browse, use and discard variants</li>
+<li>Add the variants run: skill, kind and command</li>
+<li>Add add_variant, and render and check of an option</li>
+<li>Share set_style and set_screen's field mapping</li>
+<li>Update the status after the format-7 merge and the variants plan</li>
+<li>Add the variants 3a plan</li>
+<li>Add the variants design</li>
+<li>Give a version's render the project's images, for format 7</li>
+<li>Update the status after the push, and add three live-pass rules</li>
+<li>Update the status after the annotations merge</li>
+<li>Ask for a plain finish after an edit, for the Done card</li>
+<li>Offer only a reshoot for a box inside the capture</li>
+<li>Show an edit run's screen, title and Claude's reply on Done</li>
+<li>Park annotations on screens a Send didn't change</li>
+<li>Finish an edit-only run as done</li>
+<li>Teach the shoot skill to read annotations, and record the pass</li>
+<li>Bring a version's prompt and annotations back as a draft</li>
+<li>Annotate the shot from the window</li>
+<li>Hold the prompt's annotations in a draft</li>
+<li>Send annotations to Claude with a picture per screen</li>
+<li>Report a failed run-id write to the caller</li>
+<li>Keep each Send's annotations outside the run prune</li>
+<li>Add the annotation model</li>
+<li>Update the status after the annotations plan</li>
+<li>Add the annotations plan</li>
+<li>Add the annotations design</li>
+<li>Update the status after the activity log push, and stage live passes in main's format</li>
+<li>Update the status after the activity log merge</li>
+<li>Record the activity log pass</li>
+<li>Join the engine run a Shoot's closing line opens</li>
+<li>Show the activity log oldest first, following the newest run at the bottom</li>
+<li>Rule on oldest-first order and following the bottom</li>
+<li>Fit the shot above the activity log, widen its rows, and follow a new run</li>
+<li>Rule on the shot's fit, the rows' width and following a new run</li>
+<li>List each run's steps in the activity log, in the mock's rows</li>
+<li>Rule on the activity log's rows after the first live pass</li>
+<li>Show the activity log under the shot, with the cards in a strip above the prompt bar</li>
+<li>Publish the activity log from the session, and keep its height</li>
+<li>Build the activity log's runs from the activity, run and version logs</li>
+<li>Write which engine run a Shots run joins, from the app and from shots-mcp</li>
+<li>Add the joined event, naming the engine run a Shots run writes under</li>
+<li>Add two live-pass and build rules from the run window pass</li>
+<li>Update the status after the run window merge and the activity log plan</li>
+<li>Plan the activity log, with the spec's plan-time rulings</li>
+<li>Spec the activity log</li>
+<li>Record the run window pass</li>
+<li>Show a Done screen with no capture as missing, as the centre does</li>
+<li>Render dark only when dark was captured</li>
+<li>Show a dark capture that didn't take as a note under the run's lines</li>
+<li>Cut a long change mid-word rather than back to its field name</li>
+<li>Hold live tiles within a 64 MB budget, least recently used out first</li>
+<li>Check a run with light and dark captures carries both and finds its screen</li>
+<li>Add and render each appearance the capture prints</li>
+<li>Capture every appearance the project wants, light first</li>
+<li>Name a picked version by its change and say what Restore does to its captures</li>
+<li>Step through Time Machine one deliberate scroll at a time</li>
+<li>Key each render by its size so the centre never keeps the set column's thumbnail</li>
+<li>Tell a missing capture from one still rendering and offer to shoot it again</li>
+<li>Measure each column against the window's height instead of the split view's chrome</li>
+<li>Lay the project window out in three columns with New Shot on ⌘N</li>
+<li>Grow the version stack to hold its furthest card on every device</li>
+<li>Switch the right column between the inspector and every version in depth</li>
+<li>Show a failed start over a kept draft and let layout tests yield the main actor</li>
+<li>End a draft where a run starts and keep a deleted screen's newest version picked</li>
+<li>Stack the shot, its words and the prompt bar in the centre</li>
+<li>Draw the look with its device's corner and Dynamic Island</li>
+<li>Refuse a new shot while a run is live or failed</li>
+<li>Record the activity log and annotation mock calls</li>
+<li>Show Claude's state, the shot being made and the set on the left</li>
+<li>Clear the Restore line whenever the selected screen changes</li>
+<li>Decide what the centre shows and add the run window's words</li>
+<li>Park the activity log and annotation ideas</li>
+<li>Keep a failed run on screen until its Dismiss</li>
+<li>Record the gated live rerun passing</li>
+<li>Drop the stale capture-m4a note from the status</li>
+<li>Record that spec device numbers need their units</li>
+<li>Add the run window plan</li>
+<li>Record the launcher pass</li>
+<li>Show the setup sheet once per launch</li>
+<li>Reopen a closed project session</li>
+<li>Size the launcher to 760 by 480 and keep its test off the real library</li>
+<li>Open Shots on the launcher, one window per project</li>
+<li>Port StoreFront's launcher</li>
+<li>Give each project its own window and keep runs app-wide</li>
+<li>List the launcher's recents with their last-opened dates</li>
+<li>Remember when each project was last opened</li>
+<li>Bring the current status up to date after the launcher plan</li>
+<li>Add the launcher plan</li>
+<li>Add the launcher and run window design</li>
+<li>Record the settled run view and launcher mock</li>
+<li>Update the current status after the push and record three lessons</li>
+<li>Mark the one-prompt shot as merged</li>
+<li>Park the final review's minors and bring the status up to date</li>
+<li>End the held hand-off card when a new Your turn arrives</li>
+<li>Clear the tap dot when a move fails</li>
+<li>Treat a Your turn that failed or finished as over</li>
+<li>Guard the hand-off's stdin against a child that died</li>
+<li>Keep the move budget across a second prepare in one run</li>
+<li>Teach the Shoot skill to wait out a busy first launch</li>
+<li>Hold the ticked hand-off card a moment before it goes</li>
+<li>Retry AXe's first contact and give ps longer on a cold start</li>
+<li>Record the Your turn inputs pass in Shots.app</li>
+<li>Teach the Shoot skill to ask for inputs</li>
+<li>Use the ask's own rule for Done and fill the card with each crop</li>
+<li>Show Your turn's inputs with a ring and a crop for each</li>
+<li>Hand off the card's values when Done is pressed</li>
+<li>Park the Task 17 review minors</li>
+<li>Compare the field, not the whole look, in the live hand-off test</li>
+<li>Hand the card's values to the Simulator on stdin</li>
+<li>Park the Task 16 review minors</li>
+<li>Let sim your-turn ask for inputs</li>
+<li>Park the Your turn inputs scan's open risks</li>
+<li>Give the Your turn flags their final shape in the spec</li>
+<li>Plan the Your turn inputs</li>
+<li>Let Your turn ask for its inputs</li>
+<li>Record the one-prompt shot pass in Shots.app</li>
+<li>Park the back-to-app link seen in the evals</li>
+<li>Record the plan's and the run's rulings in the spec</li>
+<li>Launch Claude by its path in the evals</li>
+<li>Park the Task 13 review minors</li>
+<li>Keep the sim session at finish so a failed restore is retried</li>
+<li>Delete the stage, the driver and their events</li>
+<li>Add gated evals for the one-prompt shot</li>
+<li>Park the Task 11 review minors</li>
+<li>Keep Try again on the shot, find the screen a shot saved to, and drop the lock warning on your own run</li>
+<li>Show one shot as five lines beside Claude's last look</li>
+<li>Find a project by any spelling of its path, and drop recipes</li>
+<li>Check the Shoot skill for its sim commands</li>
+<li>Rewrite the Shoot skill for one look-and-tap shot</li>
+<li>Park the AXe first-tap timeout</li>
+<li>Prove AXe's moves on a real Simulator</li>
+<li>Add TourFixture, an app with a tour and no accessibility</li>
+<li>Wait for the person at Your turn, and add Start fresh</li>
+<li>Park the Task 5 review minors</li>
+<li>Keep a restore recorded until it works</li>
+<li>Capture with a clean status bar and put the Simulator back</li>
+<li>Add looks in points and moves counted against the budget</li>
+<li>Add sim prepare and sim step for one-prompt runs</li>
+<li>Vendor AXe and wrap its moves</li>
+<li>Park the Task 1 review minors</li>
+<li>Add events for looks, Your turn and the five lines</li>
+<li>Note the stale stage entries as dropped</li>
+<li>Record the M4a pass as superseded</li>
+<li>Update the status for the one-prompt shot plan</li>
+<li>Plan the one-prompt shot</li>
+<li>Write the one-prompt shot design</li>
+<li>Update the status for the capture M4a pass</li>
+<li>Give wrapping text a minimum width so it can't grow the window</li>
+<li>Record the capture M4a verification</li>
+<li>Park the final review's remaining minors</li>
+<li>Drop the run view's unused model capture</li>
+<li>Count the matcher's launches under a lock in the one-match test</li>
+<li>Plainer words for Show me and the matcher, and the build log for a failed build</li>
+<li>Match one prompt at a time, and say Matching… while it runs</li>
+<li>Find Claude's answer line by line when stderr shares the log</li>
+<li>Keep Your turn, with Done, while a stage is still being filled</li>
+<li>Name only the captured devices on the Done card</li>
+<li>Draw the tap ring on the mirror's container, where its centre is measured</li>
+<li>Keep the mirror on Show me's own device</li>
+<li>Keep a failure standing until its own screen is captured, and teach that screen</li>
+<li>Answer a queued prompt only after a source read that listed screens</li>
+<li>Give each fail, and each screen's route and shoot, its own step id</li>
+<li>Say which device is active at the start of route, shoot, replay and walk start</li>
+<li>Park Task 12's Show me items</li>
+<li>Teach a route by clicking on the mirror: Show me</li>
+<li>Show the run in the window and retire the Shoot sheet</li>
+<li>Add the run view's panel, cards, mirror and prompt bar</li>
+<li>Park Task 9's untested live capture path</li>
+<li>Pin that the mirror's port survives a first show and a device switch, and clears on stop</li>
+<li>Add the mirror: driver frames for the active device and the click-to-point maths</li>
+<li>Park Task 8's plan-drop and resolver accuracy items</li>
+<li>Pin that a stage still staging keeps Go refused</li>
+<li>Resolve a prompt to one screen, plan the run, and refuse to go until the stages are ready</li>
+<li>Park Task 7's prune and wording findings</li>
+<li>Keep one run per store, leave no file for a refused start, and report a recovered run's real failure</li>
+<li>Park Task 7's staging-quit and MCP env findings</li>
+<li>Give every run an events file, new kinds for staging and reading the source, and a finish rule</li>
+<li>Park Task 5's minor review findings</li>
+<li>Add RunModel, the state machine behind the run view</li>
+<li>Report the frame of the element a driver tap hit, and serve the screen as PNG</li>
+<li>Narrate through events, report failures with a command and stop the skill printing a staging command</li>
+<li>Close the route and shoot steps when they throw, and run the one-device emitter tests on both devices</li>
+<li>Park Task 3's replay failure findings</li>
+<li>Keep the tool build's output in scratch-test's log</li>
+<li>Emit typed run events from shots-capture when the app asks for them</li>
+<li>Park Task 2's minor review findings</li>
+<li>Add ShotsEvents: typed run events, a locked writer and a reader that tolerates a torn line</li>
+<li>Take the mirror's frames from the driver after the gate failed</li>
+<li>Record the mirror gate: simctl screenshots miss 2 fps</li>
+<li>Add scratch-copy, scratch-test and mirror gate scripts</li>
+<li>Record the M4a plan's two amendments in the spec</li>
+<li>Add the capture M4a run view plan</li>
+<li>Add the capture M4a run view spec</li>
+<li>Mark capture M1–M3 merged</li>
+<li>Record the capture M3 pass in Shots.app</li>
+<li>Record capture M3 status and lessons</li>
+<li>Record the capture milestone 3 live check</li>
+<li>Run a screen's route first and explore only when it has none</li>
+<li>Keep a recipe's devices in the project's order so replay shoots iPhone first</li>
+<li>Park capture M3's deferred findings in OPEN.md by name</li>
+<li>Check on the simulators that a label tap which moves the screen on still names what it tapped</li>
+<li>Keep a recipe's device list when a walk is saved, say a failed replay in one sentence and take only a finite two-number point</li>
+<li>Clear an unreadable walk, end any walk with its session and count moves only for the session's project</li>
+<li>Record a tap by the label or id the caller named, so a shared row id never replays onto another row</li>
+<li>Read what a tap hit before tapping, so a tap that moves the screen on doesn't end the driver</li>
+<li>Present the fixture's two sheets from one modifier so both can open</li>
+<li>Make the evals find their project, stop at the cap, finish every run and refuse stale binaries</li>
+<li>Measure how reliably Claude explores unseen screens and repairs a broken route</li>
+<li>Say where a route's stopped step is read and that a screen not showing yet leaves the walk alive</li>
+<li>Add unseen fixture screens and drive the new taps and the outward refusal on both devices</li>
+<li>Shoot one screen per run by route, repair or exploration, with the app's source to read</li>
+<li>Grant the app every permission on each clone so no prompt covers a capture</li>
+<li>Replay one screen's route on one device and report the step it stopped at</li>
+<li>Keep a format 2 recipe's other devices when a walk is saved and check a walk start before ending the old walk</li>
+<li>Start a walk to explore, repair or be shown, and save it only once it replays from launch</li>
+<li>Count each move on a walk against its budget and record the ones that work as steps</li>
+<li>Split camelCase identifiers before refusing a tap and never name the app root as what a point hit</li>
+<li>Name what each tap hit, tap a point, refuse outward controls and answer system alerts</li>
+<li>Keep a screen catalogue beside the project, written one checked screen at a time</li>
+<li>Plan capture milestone 3: catalogue, explore, repair and Show me</li>
+<li>Update the status after capture milestones 1 and 2</li>
+<li>Test the replay failure contract through the CLI and stop the fixture driver after a failed launch</li>
+<li>Time the arrival cap on the clock and name both priming tries</li>
+<li>Stop reading a progress bar as a loading spinner</li>
+<li>Keep the replay report from hiding the reshoot failure sentence</li>
+<li>Park the capture milestone 2 review items</li>
+<li>Record the capture milestone 2 live check</li>
+<li>Read every screen once before prepare says ready</li>
+<li>Take the driver warm-up back out of staging</li>
+<li>Keep the replay report as JSON so its error is Sendable</li>
+<li>Restart a stage once when the app's first launch hangs</li>
+<li>Give the fixture app tabs, a menu sheet, a spinner and an empty state, and drive them on both devices</li>
+<li>Keep the replay report when a step fails</li>
+<li>Report the step a route stopped at as data for repair</li>
+<li>Wait for spinners to go before a screen counts as settled</li>
+<li>Run the driver once on each stage while staging</li>
+<li>Plan capture milestone 2 and keep routes as recipes in the spec</li>
+<li>Park the last two items from the fix wave's re-review</li>
+<li>Park the capture milestone 1 review items</li>
+<li>Name the project in the shoot skill's stage instruction</li>
+<li>Refuse a registered stage in deleteClone and check what stage launches</li>
+<li>Check the simulator service before finishing an old session and clean up in prepare's catch</li>
+<li>Record the capture milestone 1 live check</li>
+<li>Retry a clone's delete and say which clones finish couldn't remove</li>
+<li>Create stages on the newest runtime that can run the device</li>
+<li>Prepare on fresh clones of the project's stages and add stage and stage-done</li>
+<li>Guard stage and clone ownership and stop sweep hiding a broken registry</li>
+<li>Keep a stage per project and device, and shoot on clones that are always cleaned up</li>
+<li>Refuse to treat an unreadable simulator list as empty</li>
+<li>Add simulator create, clone, shutdown and delete, and a registry of Shots' own simulators</li>
+<li>Refuse to prepare while CoreSimulator is wedged or buried in leaked processes</li>
+<li>Add the plan for capture milestone 1: stage, clone and preflight</li>
+<li>Add the one-prompt capture design</li>
+<li>Add the Text card implementation plan</li>
+<li>Add the Text card template design</li>
+<li>Correct stale facts in the Claude instructions after a prompt audit</li>
+<li>Note that CI reads private dependencies through ENGINE_TOKEN</li>
+<li>Tighten the M6b status</li>
+<li>Record the M6b push and green CI</li>
+<li>Record the M6b wrap-up</li>
+<li>Record the M6b live pass and the final review's parked items</li>
+<li>Key reference thumbnails by size and give the test waits room under load</li>
+<li>Tighten the import skill's device, gate and text-only wording</li>
+<li>Keep the caption row on one line and show the original at Now in Time Machine</li>
+<li>Key the reference tile cache on the file's size and modification time</li>
+<li>Offer Run Import in the Shoot sheet for an imported project</li>
+<li>Make an import cancellable, land it off the main actor and report the iPad count</li>
+<li>Use the first preferred screenshot set that has shots</li>
+<li>Show a version's App Store original in Time Machine when it has no capture</li>
+<li>Record the M6b rulings, pin the engine and park what's left</li>
+<li>Show a screen's App Store original until it is shot</li>
+<li>Add a New Project sheet: from scratch or from the App Store</li>
+<li>Run an import as a third kind of Claude run with its own skill</li>
+<li>Land a downloaded listing as a new project or refresh an imported one</li>
+<li>Read an app's live screenshots from App Store Connect</li>
+<li>Connect App Store Connect in Settings with Shots' own Keychain item</li>
+<li>Show App Store imports in Time Machine and the changelog</li>
+<li>Check a renamed shot's name before set_screen touches the disk</li>
+<li>Let set_screen rename an unshot screen and mark one not in this build</li>
+<li>Plan Milestone 6b: App Store import</li>
+<li>Record the M6a wrap-up and two live-pass conventions</li>
+<li>Close the FileLock FIFO item as not a bug</li>
+<li>Record M6a as merged</li>
+<li>Record the live pass fixes and the two reversed Restore rulings</li>
+<li>Write Time Machine times as the change text does</li>
+<li>Ask before a project restore in a dialog over the changelog</li>
+<li>Put Restore under the picked card and the wheel catcher in front of the stack</li>
+<li>Record the M6a live pass findings and two lessons</li>
+<li>Record M6a as built and the derived change text ruling</li>
+<li>Name screens in Time Machine copy and treat a deleted screen's versions as past</li>
+<li>Build the version lists and changelog off the main actor and bound the version tiles</li>
+<li>Show the picked version sharp and tidy the Time Machine edges</li>
+<li>Add the Time Machine panel and the changelog sheet</li>
+<li>Bound the version tiles and remember the version lists</li>
+<li>Give the session versions, previews, restores and a changelog</li>
+<li>Drop undo_last_run now that every change is a version</li>
+<li>Record M6 as designed and M6a under way</li>
+<li>Add the M6a plan: Time Machine and changelog</li>
+<li>Add the Milestone 6 design: Time Machine, changelog and App Store import</li>
+<li>Record 0.4.0 as released and correct the feed seed step</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.5.0-beta.1/Shots-0.5.0-beta.1.dmg" length="22754454" type="application/octet-stream" sparkle:edSignature="/LrdNi4ZAZoy0pAl0ADmEuvC19SdfmBGnljgsLzzlg+orb3+jfNsCmQNOVKgI1izrJqFsC+TJYHtlD/TS7JiAg==" />
+    </item>
+    <item>
       <title>0.4.0</title>
       <pubDate>Sat, 03 Oct 2026 19:17:43 +0000</pubDate>
       <sparkle:version>202610031914</sparkle:version>
       <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h4>First release</h4>
-<ul>
-<li>Record M5b as merged</li>
-<li>Record the Sparkle key as backed up</li>
-<li>Record M5b as built and reviewed, awaiting the merge</li>
-<li>Build Shots on GitHub's runner</li>
-<li>Pin the engine commit CI builds against</li>
-<li>Sign updates with the Shots key and refuse a placeholder</li>
-<li>Release Shots from a tag with GitHub Actions</li>
-<li>Ask before replacing Shots in Applications and drop the download's quarantine</li>
-<li>Update Shots with Sparkle and build a signed release with one script</li>
-<li>Pin the packages the app now resolves</li>
-<li>Connect Shots to Claude Code and move it to Applications on first launch</li>
-<li>Let a Stop reach children launched off the main thread</li>
-<li>Build shots-mcp and shots-capture into the app with the skill and driver</li>
-<li>Give both tools a shared entry point and find the driver inside the app</li>
-<li>Find the tools inside the app unless a Settings path says otherwise</li>
-<li>Build Shots on GitHub's runner</li>
-<li>Record three lessons from M5a's live pass and polish</li>
-<li>Record the M5b plan as next in the status</li>
-<li>Write the Milestone 5b plan and align the spec with Brio's feed</li>
-<li>Write the Milestone 5b distribution spec</li>
-</ul>]]></description>
+      <description>&lt;h4&gt;First release&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Record M5b as merged&lt;/li&gt;
+&lt;li&gt;Record the Sparkle key as backed up&lt;/li&gt;
+&lt;li&gt;Record M5b as built and reviewed, awaiting the merge&lt;/li&gt;
+&lt;li&gt;Build Shots on GitHub's runner&lt;/li&gt;
+&lt;li&gt;Pin the engine commit CI builds against&lt;/li&gt;
+&lt;li&gt;Sign updates with the Shots key and refuse a placeholder&lt;/li&gt;
+&lt;li&gt;Release Shots from a tag with GitHub Actions&lt;/li&gt;
+&lt;li&gt;Ask before replacing Shots in Applications and drop the download's quarantine&lt;/li&gt;
+&lt;li&gt;Update Shots with Sparkle and build a signed release with one script&lt;/li&gt;
+&lt;li&gt;Pin the packages the app now resolves&lt;/li&gt;
+&lt;li&gt;Connect Shots to Claude Code and move it to Applications on first launch&lt;/li&gt;
+&lt;li&gt;Let a Stop reach children launched off the main thread&lt;/li&gt;
+&lt;li&gt;Build shots-mcp and shots-capture into the app with the skill and driver&lt;/li&gt;
+&lt;li&gt;Give both tools a shared entry point and find the driver inside the app&lt;/li&gt;
+&lt;li&gt;Find the tools inside the app unless a Settings path says otherwise&lt;/li&gt;
+&lt;li&gt;Build Shots on GitHub's runner&lt;/li&gt;
+&lt;li&gt;Record three lessons from M5a's live pass and polish&lt;/li&gt;
+&lt;li&gt;Record the M5b plan as next in the status&lt;/li&gt;
+&lt;li&gt;Write the Milestone 5b plan and align the spec with Brio's feed&lt;/li&gt;
+&lt;li&gt;Write the Milestone 5b distribution spec&lt;/li&gt;
+&lt;/ul&gt;</description>
       <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.4.0/Shots-0.4.0.dmg" length="6204175" type="application/octet-stream" sparkle:edSignature="7gMeJChPBgvtC+0bxXXl0U3JPYdwECMmrsIKiK+JnFkzYrEPA0IhPU3ahc3WQOP4lGzVJV7iU/bViTlsKniSDw==" />
     </item>
   </channel>
