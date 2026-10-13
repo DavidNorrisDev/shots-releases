@@ -6,79 +6,94 @@
     <description>Updates for Shots, the agent-first App Store screenshot app.</description>
     <language>en</language>
     <item>
+      <title>0.5.0-beta.4</title>
+      <pubDate>Tue, 13 Oct 2026 15:12:18 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>202610131508</sparkle:version>
+      <sparkle:shortVersionString>0.5.0-beta.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>What changed since v0.5.0-beta.3</h4>
+<ul>
+<li>Let a beta build take beta updates from Sparkle</li>
+<li>Park the deletes minors by name</li>
+<li>Record the deletes merge</li>
+<li>Pin the engine with deletes</li>
+<li>Close the project window itself once its project is in the Trash</li>
+<li>Park how a deleted shot comes back</li>
+<li>Keep the window open and say why when Move Project to Trash fails</li>
+<li>Refuse Delete Shot during any run and let go of takes for a deleted shot</li>
+<li>Delete a shot from the set, the gallery or with Command-Delete</li>
+<li>Move the open project to the Trash from the File menu</li>
+<li>Keep the launcher trash test off the real logs folder</li>
+<li>Move a project to the Trash from the launcher</li>
+<li>Move a project to the Trash with its logs and last-opened date</li>
+<li>Take new screen ids from the project's counter</li>
+<li>Add the deletes plan and align the spec with it</li>
+<li>Add the deletes design</li>
+<li>Park the in-app What's New run idea</li>
+<li>Record the 0.5.0 beta 3 release</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.5.0-beta.4/Shots-0.5.0-beta.4.dmg" length="23258434" type="application/octet-stream" sparkle:edSignature="vsbhUwIw1S8SrIKQKyZHM3dFROFld3+VsB2S/ik/jGDFtAr8GHQDFXghJ1WzkuPyewv6inJ2k+zJZAo9Vf96Bw==" />
+    </item>
+    <item>
       <title>0.5.0-beta.3</title>
       <pubDate>Tue, 13 Oct 2026 09:15:41 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:version>202610130911</sparkle:version>
       <sparkle:shortVersionString>0.5.0-beta.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h4>What changed since v0.5.0-beta.2</h4>
-<ul>
-<li>Record the push and park the defaults baseline on a re-stage</li>
-<li>Record the title cards merge and the restored live pass</li>
-<li>Keep the recents baseline across a re-stage and update the status</li>
-<li>Correct the serial swift test flag in the notes</li>
-<li>Let a look restyle title cards, clearing their own style</li>
-<li>Pin a take whose longer headline wraps into the icon as refused</li>
-<li>Refuse a title card take whose elements overlap or run off the canvas</li>
-<li>Give a recreated title card the listing card's backdrop and colours</li>
-<li>Park the title-cards review minors</li>
-<li>Hide a title card's captures and name a half-built card when the icon fails</li>
-<li>Read the App Store listing through shots-mcp so a run can recreate a card</li>
-<li>Teach the shoot and variants skills title cards and pin the element-layers engine</li>
-<li>Offer takes on a title card</li>
-<li>Point annotations at a title card's elements</li>
-<li>Stamp each capture a card shows in its render key</li>
-<li>Show a title card's render wherever a screen is shown</li>
-<li>Let a take reword and move a title card's elements</li>
-<li>Add the element tools for text cards, from the text-card branch without reference crops</li>
-<li>Renumber screens only when add_screen is given a position</li>
-<li>Let add_screen make a text card at a position</li>
-<li>Write the title cards plan</li>
-<li>Write the title cards design</li>
-<li>Record four lessons from the Match pass</li>
-<li>Record Match done and pushed</li>
-<li>Record the Restore pass and the count ruling</li>
-<li>Count only the screenshots Claude reads on the Match card</li>
-<li>Record the eval and iPad-only rulings</li>
-<li>Let Match read an iPad-only listing</li>
-<li>Record the Match copy ruling and the fixed minors</li>
-<li>Hand the App Store client to every run store through the registry</li>
-<li>Decode Match's thumbnails small and write its download off the main actor</li>
-<li>Show one Stop when a Match run stalls</li>
-<li>Offer Try again when the lock is taken during Match's download</li>
-<li>Check the Match eval's face is SF Pro</li>
-<li>Ask App Store Connect for Match's one app by bundle id</li>
-<li>Record the Match merge and push</li>
-<li>Record the Match live pass and its open rulings</li>
-<li>Keep the selected screen on the stage while Match runs and once it's done</li>
-<li>Hold every run during Match's download and show Match only while it runs</li>
-<li>Read a white headline by luminance in the Match eval</li>
-<li>Add a gated eval for Match App Store look</li>
-<li>Show Match App Store look in the More menu, the band and every row</li>
-<li>Download the listing before Match starts Claude, with Stop and Try again</li>
-<li>Add the Match App Store look run and let new shots follow the set</li>
-<li>Download the live listing into the project's look folder</li>
-<li>Record the beta and Match plan status</li>
-<li>Plan Match App Store look</li>
-<li>Spec Match App Store look</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.5.0-beta.3/Shots-0.5.0-beta.3.dmg" length="23743279" type="application/octet-stream" sparkle:edSignature="Sk1KIfXA0zWvUqqqjdV/J/eI6dUbcPOkPAHQhHpbmaWrDVoZyB6FWfKeusEueXmxZgjgCCCvA8IF+f9w6NcvCQ==" />
-    </item>
-    <item>
-      <title>0.5.0-beta.2</title>
-      <pubDate>Mon, 12 Oct 2026 10:51:19 +0000</pubDate>
-      <sparkle:channel>beta</sparkle:channel>
-      <sparkle:version>202610121047</sparkle:version>
-      <sparkle:shortVersionString>0.5.0-beta.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description>&lt;h4&gt;What changed since v0.5.0-beta.1&lt;/h4&gt;
+      <description>&lt;h4&gt;What changed since v0.5.0-beta.2&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Record the repo folder chooser and its owed look&lt;/li&gt;
-&lt;li&gt;Choose a project's repo folder after New Project&lt;/li&gt;
-&lt;li&gt;Park the missing repo folder chooser&lt;/li&gt;
+&lt;li&gt;Record the push and park the defaults baseline on a re-stage&lt;/li&gt;
+&lt;li&gt;Record the title cards merge and the restored live pass&lt;/li&gt;
+&lt;li&gt;Keep the recents baseline across a re-stage and update the status&lt;/li&gt;
+&lt;li&gt;Correct the serial swift test flag in the notes&lt;/li&gt;
+&lt;li&gt;Let a look restyle title cards, clearing their own style&lt;/li&gt;
+&lt;li&gt;Pin a take whose longer headline wraps into the icon as refused&lt;/li&gt;
+&lt;li&gt;Refuse a title card take whose elements overlap or run off the canvas&lt;/li&gt;
+&lt;li&gt;Give a recreated title card the listing card's backdrop and colours&lt;/li&gt;
+&lt;li&gt;Park the title-cards review minors&lt;/li&gt;
+&lt;li&gt;Hide a title card's captures and name a half-built card when the icon fails&lt;/li&gt;
+&lt;li&gt;Read the App Store listing through shots-mcp so a run can recreate a card&lt;/li&gt;
+&lt;li&gt;Teach the shoot and variants skills title cards and pin the element-layers engine&lt;/li&gt;
+&lt;li&gt;Offer takes on a title card&lt;/li&gt;
+&lt;li&gt;Point annotations at a title card's elements&lt;/li&gt;
+&lt;li&gt;Stamp each capture a card shows in its render key&lt;/li&gt;
+&lt;li&gt;Show a title card's render wherever a screen is shown&lt;/li&gt;
+&lt;li&gt;Let a take reword and move a title card's elements&lt;/li&gt;
+&lt;li&gt;Add the element tools for text cards, from the text-card branch without reference crops&lt;/li&gt;
+&lt;li&gt;Renumber screens only when add_screen is given a position&lt;/li&gt;
+&lt;li&gt;Let add_screen make a text card at a position&lt;/li&gt;
+&lt;li&gt;Write the title cards plan&lt;/li&gt;
+&lt;li&gt;Write the title cards design&lt;/li&gt;
+&lt;li&gt;Record four lessons from the Match pass&lt;/li&gt;
+&lt;li&gt;Record Match done and pushed&lt;/li&gt;
+&lt;li&gt;Record the Restore pass and the count ruling&lt;/li&gt;
+&lt;li&gt;Count only the screenshots Claude reads on the Match card&lt;/li&gt;
+&lt;li&gt;Record the eval and iPad-only rulings&lt;/li&gt;
+&lt;li&gt;Let Match read an iPad-only listing&lt;/li&gt;
+&lt;li&gt;Record the Match copy ruling and the fixed minors&lt;/li&gt;
+&lt;li&gt;Hand the App Store client to every run store through the registry&lt;/li&gt;
+&lt;li&gt;Decode Match's thumbnails small and write its download off the main actor&lt;/li&gt;
+&lt;li&gt;Show one Stop when a Match run stalls&lt;/li&gt;
+&lt;li&gt;Offer Try again when the lock is taken during Match's download&lt;/li&gt;
+&lt;li&gt;Check the Match eval's face is SF Pro&lt;/li&gt;
+&lt;li&gt;Ask App Store Connect for Match's one app by bundle id&lt;/li&gt;
+&lt;li&gt;Record the Match merge and push&lt;/li&gt;
+&lt;li&gt;Record the Match live pass and its open rulings&lt;/li&gt;
+&lt;li&gt;Keep the selected screen on the stage while Match runs and once it's done&lt;/li&gt;
+&lt;li&gt;Hold every run during Match's download and show Match only while it runs&lt;/li&gt;
+&lt;li&gt;Read a white headline by luminance in the Match eval&lt;/li&gt;
+&lt;li&gt;Add a gated eval for Match App Store look&lt;/li&gt;
+&lt;li&gt;Show Match App Store look in the More menu, the band and every row&lt;/li&gt;
+&lt;li&gt;Download the listing before Match starts Claude, with Stop and Try again&lt;/li&gt;
+&lt;li&gt;Add the Match App Store look run and let new shots follow the set&lt;/li&gt;
+&lt;li&gt;Download the live listing into the project's look folder&lt;/li&gt;
+&lt;li&gt;Record the beta and Match plan status&lt;/li&gt;
+&lt;li&gt;Plan Match App Store look&lt;/li&gt;
+&lt;li&gt;Spec Match App Store look&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.5.0-beta.2/Shots-0.5.0-beta.2.dmg" length="22770381" type="application/octet-stream" sparkle:edSignature="p+fCEE7GKlnfxPQ2XIKMT5zhaBEuAiXVazmTbgf94e3uQNXlH+rS1+o/Bv8lqhtlwRm2yWtGLE4/OrebBHRFDQ==" />
+      <enclosure url="https://github.com/DavidNorrisDev/shots-releases/releases/download/v0.5.0-beta.3/Shots-0.5.0-beta.3.dmg" length="23743279" type="application/octet-stream" sparkle:edSignature="Sk1KIfXA0zWvUqqqjdV/J/eI6dUbcPOkPAHQhHpbmaWrDVoZyB6FWfKeusEueXmxZgjgCCCvA8IF+f9w6NcvCQ==" />
     </item>
     <item>
       <title>0.4.0</title>
